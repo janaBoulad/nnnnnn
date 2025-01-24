@@ -7,8 +7,8 @@
     var buttonSound = document.getElementById("buttonSound");
     buttonSound.play();
     window.open(url, '_blank');
-}// إخفاء الـ Loader عند تحميل الصفحة
-window.addEventListener('load', function () {
+  // إخفاء الـ Loader عند تحميل الصفحة
+{window.addEventListener('load', function () {
 const loader = document.getElementById('loader');
 const mainContent = document.getElementById('main-content');
 
