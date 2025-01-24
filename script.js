@@ -8,7 +8,8 @@
     buttonSound.play();
     window.open(url, '_blank');
   // إخفاء الـ Loader عند تحميل الصفحة
-{window.addEventListener('load', function () {
+{
+  window.addEventListener('load', function () {
 const loader = document.getElementById('loader');
 const mainContent = document.getElementById('main-content');
 
@@ -18,7 +19,7 @@ loader.style.display = 'none';
 mainContent.style.display = 'block';
 }, 1500); // يمكنك تعديل الزمن حسب رغبتك
 });
-
+}
 {
 var x=0;
 var y=0;
